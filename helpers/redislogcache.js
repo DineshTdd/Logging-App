@@ -9,7 +9,7 @@ exports.RedisLogCache = async (message) => {
     // Observes high resolution performance metrics
     const obs = new PerformanceObserver((items) => {
         console.log('It took ' + items.getEntries()[0].duration + ' ms.');
-        performance.clearMarks();
+        performance.clearMark();
       });
     obs.observe({ entryTypes: ['measure'] });
 
@@ -25,7 +25,7 @@ exports.RedisLogCache = async (message) => {
         if (err) console.log(err); 
         // performance.mark('A')
         await reply.forEach(element => {
-            console.log(JSON.parse(element).message)
+            // console.log(JSON.parse(element).message)
         });
         // performance.mark('B')
         // performance.measure('A to B', 'A', 'B')

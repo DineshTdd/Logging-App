@@ -1,0 +1,36 @@
+{ "level": "error" , "message" : "uncaughtException: RedisLogCache is not a function
+TypeError: RedisLogCache is not a function
+    at Printf.winston.format.combine.winston.format.printf.info [as template] (D:\program\Node JS\logging_app\config\winston.js:39:9)
+    at Printf.transform (D:\program\Node JS\logging_app\node_modules\logform\printf.js:11:26)
+    at Format.info [as transform] (D:\program\Node JS\logging_app\node_modules\logform\combine.js:20:24)
+    at Format.info [as transform] (D:\program\Node JS\logging_app\node_modules\logform\combine.js:20:24)
+    at Console._write (D:\program\Node JS\logging_app\node_modules\winston-transport\index.js:90:33)
+    at doWrite (D:\program\Node JS\logging_app\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (D:\program\Node JS\logging_app\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (D:\program\Node JS\logging_app\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (D:\program\Node JS\logging_app\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:203:15)" }
+{ "level": "error" , "message" : "uncaughtException: RedisLogCache is not a function
+TypeError: RedisLogCache is not a function
+    at Printf.winston.format.combine.winston.format.printf.info [as template] (D:\program\Node JS\logging_app\config\winston.js:39:9)
+    at Printf.transform (D:\program\Node JS\logging_app\node_modules\logform\printf.js:11:26)
+    at Format.info [as transform] (D:\program\Node JS\logging_app\node_modules\logform\combine.js:20:24)
+    at Format.info [as transform] (D:\program\Node JS\logging_app\node_modules\logform\combine.js:20:24)
+    at Console._write (D:\program\Node JS\logging_app\node_modules\winston-transport\index.js:90:33)
+    at doWrite (D:\program\Node JS\logging_app\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (D:\program\Node JS\logging_app\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (D:\program\Node JS\logging_app\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (D:\program\Node JS\logging_app\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:203:15)" }
+{ "level": "error" , "message" : "uncaughtException: Maximum call stack size exceeded
+RangeError: Maximum call stack size exceeded
+    at Function.[Symbol.hasInstance] (<anonymous>)
+    at DerivedLogger.logger.error.err [as error] (D:\program\Node JS\logging_app\config\winston.js:70:11)
+    at DerivedLogger.logger.error.err [as error] (D:\program\Node JS\logging_app\config\winston.js:73:12)
+    at DerivedLogger.logger.error.err [as error] (D:\program\Node JS\logging_app\config\winston.js:73:12)
+    at DerivedLogger.logger.error.err [as error] (D:\program\Node JS\logging_app\config\winston.js:73:12)
+    at DerivedLogger.logger.error.err [as error] (D:\program\Node JS\logging_app\config\winston.js:73:12)
+    at DerivedLogger.logger.error.err [as error] (D:\program\Node JS\logging_app\config\winston.js:73:12)
+    at DerivedLogger.logger.error.err [as error] (D:\program\Node JS\logging_app\config\winston.js:73:12)
+    at DerivedLogger.logger.error.err [as error] (D:\program\Node JS\logging_app\config\winston.js:73:12)
+    at DerivedLogger.logger.error.err [as error] (D:\program\Node JS\logging_app\config\winston.js:73:12)" }
