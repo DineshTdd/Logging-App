@@ -9,7 +9,7 @@ exports.RedisLogCache = async (message) => {
     // Observes high resolution performance metrics
     const obs = new PerformanceObserver((items) => {
         console.log('It took ' + items.getEntries()[0].duration + ' ms.');
-        performance.clearMark();
+        performance.clearMarks();
       });
     obs.observe({ entryTypes: ['measure'] });
 
